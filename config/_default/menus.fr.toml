@@ -12,41 +12,34 @@
 
 
 [[main]]
-  name = "About"
+  name = "À propos"
   weight = 10
   pageRef = "about"
 
 [[main]]
-  name = "Tickets"
+  name = "Billets"
   weight = 20
   pageRef = "tickets"
 
 [[main]]
-  name = "Schedule"
+  name = "Programme"
   weight = 30
   pageRef = "schedule"
 
 [[main]]
-  name = "Location"
+  name = "Lieu"
   weight = 40
   pageRef = "location"
 
 [[main]]
-  name = "Partners"
+  name = "Partenaires"
   weight = 50
   pageRef = "partners"
 
 [[main]]
-  name = "Past Conferences"
+  name = "Conférences passées"
   weight = 60
   pageRef = "past"
-
-# [[subnavigation]]
-#   name = "My Awesome Category"
-#   pre = "github"
-#   weight = 20
-
-
 
  # -- Footer Menu --
  # The footer menu is displayed at the bottom of the page, just before

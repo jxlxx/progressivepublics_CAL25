@@ -1,0 +1,8 @@
+!.ignore
+!.gitignore
+
+themes/blowfish
+public
+resources
+go.mod
+static/fonts

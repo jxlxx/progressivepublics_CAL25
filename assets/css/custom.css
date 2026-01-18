@@ -1,0 +1,78 @@
+
+@font-face {
+  font-family: "VulfMonoItalic";
+  src: url("/fonts/VulfMonoDemo-Italic.otf") format("opentype");
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "VulfMonoLightItalic";
+  src: url("/fonts/VulfMonoDemo-LightItalic.otf") format("opentype");
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "VulfMono";
+  src: url("/fonts/VulfMonoDemo-Regular.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FiraCode";
+  src: url("/fonts/FiraCode-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FiraCodeLight";
+  src: url("/fonts/FiraCode-Light.ttf") format("truetype");
+  font-weight: 100;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FiraCodeBold";
+  src: url("/fonts/FiraCode-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* ensure all headings use that font */
+h1 {
+  font-family: "VulfMonoLightItalic", var(--font-sans);
+  font-style: italic;
+  font-weight: inherit;
+    
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "FiraCode", var(--font-sans);
+  font-weight: inherit;
+}
+
+p, a{
+  font-family: "FiraCode", var(--font-sans);
+  font-weight: inherit;
+  color: 128, 67, 17;
+}
+
+a {
+  font-family: "FiraCodeBold", var(--font-sans);
+  /* font-weight: 700; */
+  text-decoration: underline;    
+  text-decoration-style: wavy;
+  text-decoration-thickness: 0.075em;
+}
+
+
+.main-menu a {
+  font-family: "FiraCode", var(--font-sans);
+}
