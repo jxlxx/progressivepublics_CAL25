@@ -49,11 +49,11 @@ jobs:
           repository: jxlxx/fonts
           path: .fonts-cache
           token: ${{ secrets.FONTS_REPO_TOKEN }}
-
       - name: Copy private fonts into site
         run: |
             mkdir -p static/fonts
-            rsync -av --delete --exclude '.git' .fonts-cache/ static/fonts/
+            cp -r .fonts-cache/fira static/fonts/
+            cp -r .fonts-cache/selectric  static/fonts/
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
