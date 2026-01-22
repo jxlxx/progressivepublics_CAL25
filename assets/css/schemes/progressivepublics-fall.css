@@ -1,0 +1,27 @@
+/* Fall Schema */
+:root {
+  --soft-white: 254, 243, 226;
+
+  --brown: 128, 67, 17;
+  --warm-orange: 203, 107, 28;
+  --classy-purple: 30, 26, 35;
+  --classy-purple-darker: 20, 20, 25;
+  --navy: 51, 65, 85;
+
+  --color-neutral: var(--soft-white);
+
+  --color-focus: rgb(var(--warm-orange));
+  --color-focus-shadow: rgb(var(--brown));
+  --color-focus-secondary: rgb(var(--warm-orange));
+
+  --color-focus-dark: rgb(var(--warm-orange));
+  --color-focus-dark-shadow: rgb(var(--white));
+  --color-focus-dark-secondary: rgb(var(--warm-orange));
+
+  /* background */
+  --color-neutral-800: var(--classy-purple);
+
+  /* mobile popup menu */
+  --color-neutral-900: var(--classy-purple-darker);
+}
+

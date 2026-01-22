@@ -1,0 +1,44 @@
+/* Winter scheme */
+:root {
+  --soft-white: 254, 243, 226;
+  --soft-white-warmer: 254, 243, 216;
+  --soft-white-brighter: 254, 249, 246;
+  --white: 255, 255, 255;
+
+  --brown: 128, 67, 17;
+  --warm-orange: 203, 107, 28;
+  --classy-purple: 30, 26, 35;
+  --classy-purple-darker: 20, 20, 25;
+  --navy: 51, 65, 85;
+  --dark-grey: 20, 20, 20;
+  --darker-grey: 5, 5, 5;
+  --pink: 234, 94, 133;
+  --yellow: 244, 234, 100;
+  --bright-green: 94, 235, 195;
+  --emerald-green: 52, 158, 128;
+  --azure: 240, 255, 255;
+  --red: 255, 0, 0;
+  --moody-pink: 207, 47, 107;
+  --blue: 80, 165, 255;
+  --black: 0, 0, 0;
+
+  --color-neutral: var(--white);
+  --color-neutral-300: var(--white);
+  --color-neutral-700: 0,0,0;
+
+  --color-focus: rgb(var(--blue));
+  --color-focus-shadow: rgb(var(--navy));
+  --color-focus-secondary: rgb(var(--blue));
+
+  --color-focus-dark: rgb(var(--blue));
+  --color-focus-dark-shadow: rgb(var(--white));
+  --color-focus-dark-secondary: rgb(var(--white));
+
+  /* background */
+  --color-neutral-800: var(--black);
+
+  /* mobile popup menu */
+  --color-neutral-900: var(--black);  
+}
+
+

@@ -1,0 +1,43 @@
+/* Summer scheme */
+:root {
+  --white: 255, 255, 255;
+  --soft-white: 254, 243, 226;
+  --soft-white-warmer: 254, 243, 216;
+  --soft-white-brighter: 254, 249, 246;
+
+  --brown: 128, 67, 17;
+  --warm-orange: 203, 107, 28;
+  --classy-purple: 30, 26, 35;
+  --classy-purple-darker: 20, 20, 25;
+  --navy: 51, 65, 85;
+  --purple-grey: 30, 20, 30;
+  --purple-grey-dark: 20, 10, 20;
+  --dark-grey: 20, 20, 20;
+  --darker-grey: 5, 5, 5;
+  --pink: 234, 94, 133;
+  --yellow: 244, 234, 100;
+  --dark-yellow: 255, 215, 0;
+  --bright-green: 94, 235, 195;
+  --emerald-green: 52, 158, 128;
+  --azure: 240, 255, 255;
+  --red: 255, 0, 0;
+  --moody-pink: 207, 47, 107;
+
+  --color-neutral: var(--soft-white);
+  --color-neutral-300: var(--white);
+
+  --color-focus: rgb(var(--yellow));
+  --color-focus-shadow: rgb(var(--red));
+  --color-focus-secondary: rgb(var(--moody-pink));
+
+  --color-focus-dark: rgb(var(--yellow));
+  --color-focus-dark-shadow: rgb(var(--red));
+  --color-focus-dark-secondary: rgb(var(--bright-green));
+
+  /* background */
+  --color-neutral-800: var(--purple-grey);
+
+  /* mobile popup menu */
+  --color-neutral-900: var(--purple-grey-dark);  
+}
+

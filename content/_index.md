@@ -2,8 +2,6 @@
 title: "home"
 ---
 
-A 2-day academic symposium featuring panels exploring Alberta history, social
-democracy, independent journalism & more.
 
 The 3rd annual Progressive Publics Symposium will take place in Calgary on June
 13-14, hosted by [Dr. Shama Rangwala (YorkU)]() and [Andre Goulet]()
@@ -24,3 +22,4 @@ June 13th + 14th 2024
 Calgary, AB
 
 :cowboy_hat_face:
+

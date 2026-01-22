@@ -1,0 +1,36 @@
+/* Spring scheme */
+:root {
+  --soft-white: 254, 243, 226;
+  --soft-white-brighter: 254, 249, 246;
+
+  --brown: 128, 67, 17;
+  --warm-orange: 203, 107, 28;
+  --classy-purple: 30, 26, 35;
+  --classy-purple-darker: 20, 20, 25;
+  --navy: 51, 65, 85;
+  --dark-grey: 20, 20, 20;
+  --darker-grey: 5, 5, 5;
+  --pink: 234, 94, 133;
+  --bright-green: 94, 235, 195;
+  --emerald-green: 52, 158, 128;
+  --azure: 240, 255, 255;
+  --black: 0, 0, 0;
+
+  --color-neutral: var(--soft-white-brighter);
+  --color-neutral-300: var(--azure);
+
+  --color-focus: rgb(var(--pink));
+  --color-focus-shadow: rgb(var(--black));
+  --color-focus-secondary: rgb(var(--emerald-green));
+
+  --color-focus-dark: rgb(var(--pink));
+  --color-focus-dark-shadow: rgb(var(--black));
+  --color-focus-dark-secondary: rgb(var(--bright-green));
+
+  /* background */
+  --color-neutral-800: var(--dark-grey);
+
+  /* mobile popup menu */
+  --color-neutral-900: var(--darker-grey);
+}
+

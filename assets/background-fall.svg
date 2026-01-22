@@ -1,0 +1,23 @@
+  <svg xmlns="http://www.w3.org/2000/svg" width="1084" height="322" viewBox="0 0 1084 322" preserveAspectRatio="xMidYMid slice">
+    <style>
+      :root {
+         --background: 203, 107, 28;
+      }
+    </style>
+    <rect width="100%" height="100%" fill="#FEF8F1"/>
+    <circle style="fill: rgb(var(--background));" fill-opacity="0.15" cx="320" cy="180" r="230">
+      <animate attributeName="cx" values="320;360;250;320" dur="40s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="180;220;140;180" dur="36s" repeatCount="indefinite"/>
+      <animate attributeName="r"  values="230;260;200;230" dur="42s" repeatCount="indefinite"/>
+    </circle>
+    <circle style="fill: rgb(var(--background));" fill-opacity="0.12" cx="720" cy="150" r="260">
+      <animate attributeName="cx" values="720;650;780;720" dur="55s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="150;210;120;150" dur="48s" repeatCount="indefinite"/>
+      <animate attributeName="r"  values="260;310;230;260" dur="50s" repeatCount="indefinite"/>
+    </circle>
+    <circle style="fill: rgb(var(--background));"  fill-opacity="0.2" cx="470" cy="240" r="210">
+      <animate attributeName="cx" values="470;520;420;470" dur="60s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="240;280;200;240" dur="52s" repeatCount="indefinite"/>
+      <animate attributeName="r"  values="210;260;190;210" dur="58s" repeatCount="indefinite"/>
+    </circle>
+  </svg>
